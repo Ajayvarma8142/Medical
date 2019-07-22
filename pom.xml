@@ -112,7 +112,7 @@
     <finalName>${project.artifactId}${project.version}</finalName>
   </build>
 
-  <pluginRepositories> 
+ <!--- <pluginRepositories> 
 	<pluginRepository>      
   		<id>buildnumber-maven-plugin</id>   
     		<name>buildnumber-maven-plugin</name>   
@@ -124,7 +124,6 @@
 		<enabled>true</enabled>
 		</releases>		
 	</pluginRepository>
-  </pluginRepositories> 
-	
+  </pluginRepositories>   -->	
 
 </project>
