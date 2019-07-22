@@ -7,18 +7,6 @@
   <version>3.6.1</version>
   <name>DiagnosticCentre Maven Webapp</name>
   <url>http://maven.apache.org</url>
-	<profile>
-            <id>sonar</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <properties>
-                <!-- Optional URL to server. Default value is http://localhost:9000 -->
-                <sonar.host.url>
-                  http://54.193.106.223:9000
-                </sonar.host.url>
-            </properties>
-        </profile>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
